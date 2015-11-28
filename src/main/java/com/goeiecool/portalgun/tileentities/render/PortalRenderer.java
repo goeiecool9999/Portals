@@ -184,6 +184,10 @@ public class PortalRenderer extends TileEntitySpecialRenderer {
     }
 
     private static void renderWorld(RenderGlobal renderer, float partialTicks){
+        //this function is mostly Copy/pasted from another MC class.
+        //I had to copy paste to make sure it calls only the functions I need.
+        //MIP mapping seems to be a bit broken as a result.
+
         GlStateManager.enableCull();
         GlStateManager.enableTexture2D();
         ClippingHelperImpl.getInstance();
