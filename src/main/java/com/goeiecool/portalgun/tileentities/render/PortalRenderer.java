@@ -113,7 +113,10 @@ public class PortalRenderer extends TileEntitySpecialRenderer {
             GlStateManager.disableFog();
 
             //render texture on fullscreen regardless of depth. (without modifying depth buffer).
+            //glDepthMask probably not even necessary lol.
             glDepthMask(false);
+
+            //DONT USE IMMEDIATE MODE FOR ANYTHING THIS IS JUST FOR THE DEMO
             glDisable(GL_DEPTH_TEST);
             glBegin(GL_QUADS);
             //top left
