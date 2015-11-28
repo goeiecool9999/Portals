@@ -1,0 +1,16 @@
+[
+{
+  "modid": "portalgun",
+  "name": "Portalgun mod",
+  "description": "New and improved",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["goeiecool9999"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
